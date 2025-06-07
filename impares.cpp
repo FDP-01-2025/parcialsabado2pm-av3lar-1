@@ -4,17 +4,17 @@ using namespace std;
 
 int main()
 {
-    int n= 50, suma = 0, impar = 1;
+    int n = 50, suma = 0, impar = 1;
 
-    //cout << "Inserta un numero: ";
-    //cin >> n;
+    // cout << "Inserta un numero: ";
+    // cin >> n;
 
-    for (int i = 0; i <=n; i++)
+    for (int i = 1; i < n; i++)
     {
-        suma += impar;
-        impar += 1;
+        suma = suma + impar;
+        impar = impar + 1;
     }
-cout << "La suma de los numeros impares desde el 1 hasta " << n << " es: " << suma << endl;
+    cout << "La suma de los numeros impares desde el 1 hasta " << n << " es: " << suma << endl;
 
-return 0;
+    return 0;
 }
