@@ -9,7 +9,7 @@ int main()
     // cout << "Inserta un numero: ";
     // cin >> n;
 
-    for (int i = 1; i < n; i++)
+    for (int i = 1; i < n; i+=2)
     {
         suma = suma + impar;
         impar = impar + 1;
