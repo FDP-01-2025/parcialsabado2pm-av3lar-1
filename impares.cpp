@@ -11,8 +11,8 @@ int main()
 
     for (int i = 1; i < n; i+=2)
     {
-        suma = suma + impar;
-        impar = impar + 1;
+        suma = suma i;
+        
     }
     cout << "La suma de los numeros impares desde el 1 hasta " << n << " es: " << suma << endl;
 
