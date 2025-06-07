@@ -1,20 +1,20 @@
+
 #include <iostream>
 using namespace std;
 
-int main ( ){
-    int n, suma= 0, impar ;
-    cout<< "ingresa un numero\n";
-    cin>>n;
-    for ( int i = 0; i<=n; i++){
-        impar += n;
-        suma = suma + impar;
-      
+int main()
+{
+    int n= 50, suma = 0, impar = 1;
+
+    //cout << "Inserta un numero: ";
+    //cin >> n;
+
+    for (int i = 0; i <=n; i++)
+    {
+        suma += impar;
+        impar += 1;
     }
-        cout<<" la suma de los impares entre el 1 y 50 es: " <<suma<<endl;
+cout << "La suma de los numeros impares desde el 1 hasta " << n << " es: " << suma << endl;
 
-    
-
-
-
-    return 0;
+return 0;
 }
